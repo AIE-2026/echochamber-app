@@ -1,0 +1,26 @@
+# UI
+gradio>=6.9.0
+
+# LLM routing (supports OpenAI, DeepSeek, Gemini, Claude, local Ollama)
+litellm>=1.35.0
+
+# Agent orchestration
+langgraph>=1.0.10
+
+# Embeddings + vector store (RAG)
+sentence-transformers
+faiss-cpu>=1.7.4
+numpy>=1.24.0
+
+# Config and utilities
+pyyaml>=6.0
+python-dotenv>=1.0.1
+tqdm>=4.66.2
+
+# Article fetching (Tab 2 — News)
+requests
+beautifulsoup4
+
+# Metrics and charts
+scikit-learn
+matplotlib
