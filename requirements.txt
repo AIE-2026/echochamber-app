@@ -24,3 +24,8 @@ beautifulsoup4
 # Metrics and charts
 scikit-learn
 matplotlib
+
+# other
+openai
+dotenv
+google-genai 

@@ -14,6 +14,7 @@ data/bubbles/*
 !data/cleaned/.gitkeep
 !data/bubbles/.gitkeep
 
+issues/
 # Vector store indexes (large binary files)
 assets/vectorstores/
 *.faiss
@@ -22,3 +23,9 @@ assets/vectorstores/
 # OS
 .DS_Store
 Thumbs.db
+
+
+#jupiter notebook checkpoints,outputs
+__pycache__/
+.ipynb_checkpoints/
+outputs/
