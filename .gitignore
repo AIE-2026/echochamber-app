@@ -8,16 +8,13 @@ __pycache__/
 
 # Data files — tracked via .gitkeep, actual data stays local
 
-data/bubbles/*
 !data/raw/.gitkeep
 !data/cleaned/.gitkeep
 !data/bubbles/.gitkeep
 
 issues/
 # Vector store indexes (large binary files)
-assets/vectorstores/
-*.faiss
-*.pkl
+
 
 # OS
 .DS_Store
